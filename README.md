@@ -1,2 +1,2 @@
 # favorite_tasks
-Collection of task I like to solve and resolve
+Collection of tasks I like to solve and resolve

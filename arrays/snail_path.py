@@ -11,12 +11,16 @@ def snail_path(matrix):
         return []
 
     output = []
+    
+    # 0 - right, 1 - down, 2 - left, 3 - up
     direction = 0
-    hor_size, vert_size = len(matrix[0]), len(matrix)
+    
+    # track rows and columns we have passed
+    hor_stop, vert_stop = len(matrix[0]), len(matrix)
     hor_start = 0
-    hor_stop = hor_size 
     vert_start = 0 
-    vert_stop = vert_size
+   
+    # track row and col to iter through it 
     last_row = 0
     last_col = 0
 
